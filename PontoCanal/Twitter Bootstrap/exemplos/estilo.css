@@ -1,0 +1,22 @@
+.bloco1, .bloco2 {
+	padding: 8px;
+}
+
+/*.bloco1 {
+	background-color: #DDD;
+}*/
+
+.bloco2 {
+	background-color: #EEE;
+}
+
+.espaco {
+	margin-top: 10px;
+}
+
+img {
+	height: 180px;
+	width: 200px;
+	border: 1px solid black;
+	margin: 20px;
+}
