@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Curso Bootstrap - PontoCanal"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<title>Curso Bootstrap - PontoCanal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Não existe mais layout fixo no bootstrap3. Não existe mais necessidade de usar a classe "row-fluid" para fazer um site responsivo, existindo agora somente a classe "row" -->
+ 
+ <div class="container-fluid">
+ 	<div class="row">
+ 	<!-- ".span-*" deixou de existir. Agora é usada a classe ".col-md-*" para definir a quantidade de colunas do elemento bootstrap -->
+ 	<div class="col-md-8 bloco1"> 
+ 		<h1>Corpo</h1>
+ 		<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong>elit, sed do eiusmod
+ 		tempor <em>incididunt ut labore</em> et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi <b>ut aliquip ex ea commodo</b>
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu <i>fugiat nulla pariatur.</i> Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- A classe "text-error" foi mudada para "text-danger". A classe "muted" recebeu o prefixo "text-". -->
+ 		<p class="text-muted">Frase com ênfase</p>
+ 		<p class="text-primary">Frase com ênfase</p>
+ 		<p class="text-warning">Frase com ênfase</p>
+ 		<p class="text-danger">Frase com ênfase</p>
+ 		<p class="text-info">Frase com ênfase</p>
+ 		<p class="text-success">Frase com ênfase</p>
+
+ 		<p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p class="bg-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p class="bg-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p class="bg-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<p class="bg-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 		<abbr title="Atributo" class="initialism"> attr</abbr>
+
+		<blockquote class="pull-right">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua.</p>
+ 		<small> Alguém famoso <cite>Lorem ipsum dolor</cite></small>
+		</blockquote>
+
+		<table class="table table-bordered table-hover table-condensed">
+			<caption> Aprovados e Reprovados</caption>
+			<thead>
+				<tr>
+					<th>Numero</th>
+					<th>Nome</th>
+					<th>Nota</th>
+
+					<th>Situação</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr class="active">
+					<td>01</td>
+					<td>Ana Maria</td>
+					<td>9.0</td>
+					<td>Aprovada</td>
+				</tr>
+				<tr class="success">
+					<td>01</td>
+					<td>Ana Maria</td>
+					<td>9.0</td>
+					<td>Aprovada</td>
+				</tr>
+				<tr class="success">
+					<td>02</td>
+					<td>João Vitor</td>
+					<td>8.5</td>
+					<td>Aprovada</td>
+				</tr>
+				<tr class="warning">
+					<td>03</td>
+					<td>Alanna Ferraz</td>
+					<td>6</td>
+					<td>Recuperação</td>
+				</tr>
+				<tr class="danger">
+					<td>04</td>
+					<td>José Henrique</td>
+					<td>5.5</td>
+					<td>Reprovado</td>
+				</tr>
+				<tr class="info">
+					<td>05</td>
+					<td>Maria Clara</td>
+					<td>4</td>
+					<td>Pendente</td>
+				</tr>
+			</tbody>
+		</table>
+<!-- "input-prepend" e "input-append" foi unida na classe ".input-group". A classe ".add-on" foi substituída pela classe ".input-group-addon" dentro de uma div, tanto antes quanto depois do input -->
+		<form action="" class="form-inline">
+			<div class="form-group">
+				<div class="input-group input-group-lg">
+					<div class="input-group-addon">R$</div>
+					<input type="text" class="form-control">
+					<div class="input-group-addon">.00</div>
+				</div>
+				<button class="btn btn-primary"> Transferência</button>			</div>
+		</form>
+
+		<p></p>
+		<form action="" class="form-inline">
+			<div class="form-group">
+				<div class="input-group input-group-sm">
+				<div class="input-group-btn">
+					<button class="btn btn-default">Vai!</button>
+				</div>
+					<input type="text" class="form-control">
+				</div>
+				<button class="btn btn-primary"> Transferência</button>			</div>
+		</form>
+
+<!-- ".form-horizontal" e ".form-inline continuaram". A classe para definir o grupo, mudou de ".control-group" para ".form-group". A classe "controls" que servia para o input ser controlado pelo bootstrap já não existe mais. Ela foi substituída pela classe ".form-control" que deve ser colocada dentro do input e não mais ".controls" em uma div que envolvia o input. -->
+
+		<form action="" class="form-horizontal">
+			<div class="form-group">
+				<label for="" class="control-label">Email</label>
+					<input type="email" id="inputEmail" class="form-control"required>
+			</div>
+			<div class="control-group">
+				<label for="" class="control-label">Senha</label>
+					<input type="text" id="inputPassword" class="form-control" disabled>
+					<button class="btn">Entrar</button>
+			</div>
+		</form>
+
+<!-- Houve mudança no estado de validação de campo aplicado aos inputs. O "info" já não existe mais. Os outros tês que permanecem recebem um prefixo "has-" -->
+
+		<form action="" class="form-horizontal">
+			<div class="form-group has-warning form-group-lg">
+				<label for="" class=" col-sm-3 control-label"> Input Com Aviso</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control">
+					<span class="help-inline">Alguma coisa deu errado!</span>
+				</div>
+			</div>
+			<div class="control-group has-error">
+				<label for="" class="col-sm-3 control-label">Input com Erro</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control">
+					<span class="help-inline"> Por favor, corrija o erro!</span>
+				</div>
+			</div>
+			<div class="control-group has-success">
+				<label for="" class="col-sm-3 control-label">Input com Sucesso</label>
+				<div class="col-sm-9" >
+					<input type="text" class="form-control input-sm">
+					<span class="help-inline"> Tudo ok!</span>
+				</div>
+			</div>
+
+	 </div>
+ 	<div class="col-md-4 bloco2"> 
+ 		<h1>Barra Lateral</h1>
+<!-- ".form-search" foi descontinuado -->
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, fugiat, 
+ 		autem, quae vel omnis nihil aliquam dolorem est ipsum aut molestias rem dolorum unde 
+ 		ut fugit laboriosam nostrum quis repudiandae!</p>
+ 		<ul class="unstyled">
+ 			<li><i class="icon-music icon-white"></i> Menu 1</li>
+ 			<li> <i class="icon-camera"></i> Menu 2</li>
+ 			<li> <i class="icon-refresh"></i> Menu 3
+ 				<ul>
+					<li>  Sub Menu 1</li>
+					<li>  Sub Menu 2</li>
+					<li>  Sub Menu 3</li>
+ 				</ul>
+ 			</li>
+ 			<li><i class="icon-tags"></i> Menu 4</li>
+ 			<li><i class="icon-print"></i> Menu 5</li>
+ 		</ul>
+
+ 		<ol class="inline">
+ 			<li> Menu 1</li>
+ 			<li> Menu 2</li>
+ 			<li> Menu 3</li>
+ 			<li> Menu 4</li>
+ 			<li> Menu 5</li>
+ 		</ol>
+
+		<dl class="dl-horizontal">
+			<dt> Item 1</dt>
+			<dd> Descrição da lista.</dd>
+			<dt>Item 2</dt>
+			<dd>Descrição da lista. Descrição da lista. Descrição da lista. Descrição da lista. Descrição da lista.</dd>
+			<dt>Item 3</dt>
+			<dd>Descrição da lista.</dd>
+			<dt>Item 4</dt>
+			<dd>Descrição da lista.</dd>
+			<dt>Item 5</dt>
+			<dd>Descrição da lista.</dd>
+		</dl>
+		<div class="btn-toolbar">
+			<div class="btn-group">
+				<a href="" class="btn"><i class="icon-align-left"></i></a>
+				<a href="" class="btn"><i class="icon-align-center"></i></a>
+				<a href="" class="btn"><i class="icon-align-right"></i></a>
+				<a href="" class="btn"><i class="icon-align-justify"></i></a>
+			</div>
+		</div>
+
+		<form action="" class="form-inline">
+			<input type="text" class="input-small" placeholder="Email">
+			<input type="text" class="input-small" placeholder="Senha">
+			<button class="btn">Entrar</button>
+		</form>
+
+		</form>
+		<a href="" class="btn">Link</a>
+		<button class="btn">Botão</button>
+		<input type="button" value="Input" class="btn">
+		<input type="submit" value="Enviar" class="btn"><br><br>
+
+<!-- Mudanças nas classes dos botões: Tamanho dos botões: "btn-large" para "btn-lg", btn-small para btn-sm, btn-mini para btn-xs -->
+
+		<div>
+			<button class="btn btn-lg">Padrão</button><br>
+			<button class="btn btn-warning disabled">Aviso</button><br> 
+			<button class="btn btn-primary btn-sm">Primário</button><br>
+			<button class="btn btn-info btn-xs">Informações</button><br>
+			<button class="btn btn-success btn-block">Sucesso</button><br>
+			<button class="btn btn-danger"><i class="icon-fire icon-white"></i> Perigo</button><br>
+			<button class="btn btn-default">Default</button><br>
+			<!-- "btn-inverse" da versão 2.x foi descontinuado e incrementado o "btn-default" na versão 3.x-->
+			<!-- <button class="btn btn-inverse">Inverso</button><br> -->
+			<button class="btn btn-link">Link</button><br>
+		</div>
+
+		<div class="btn-group btn-group-lg">
+			<button class="btn btn-primary">Primário</button>
+			<button class="btn btn-info">Informações</button>
+			<button class="btn btn-success">Sucesso</button>
+		</div>
+<p> </p>
+		<div class="btn-group">
+			<button class="btn btn-primary">Primário</button>
+			<button class="btn btn-info">Informações</button>
+			<button class="btn btn-success">Sucesso</button>
+		</div>
+<p> </p>
+		<div class="btn-group btn-group-sm">
+			<button class="btn btn-primary">Primário</button>
+			<button class="btn btn-info">Informações</button>
+			<button class="btn btn-success">Sucesso</button>
+		</div>
+<p> </p>
+		<div class="btn-group btn-group-xs">
+			<button class="btn btn-primary">Primário</button>
+			<button class="btn btn-info">Informações</button>
+			<button class="btn btn-success">Sucesso</button>
+		</div>
+<p> </p>
+		<div class="btn-group-vertical">
+			<button class="btn btn-primary">Primário</button>
+			<button class="btn btn-info">Informações</button>
+			<button class="btn btn-success">Sucesso</button>
+		</div>
+
+ 	</div>
+ </div>
+ </div>
+ 
+</body>
+</html>
