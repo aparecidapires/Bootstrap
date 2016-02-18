@@ -1,6 +1,6 @@
 # Bootstrap
-https://www.youtube.com/user/PontoCanalOficial
 PontoCanal - Curso Twitter Bootstrap - Bootstrap2.x
+https://www.youtube.com/user/PontoCanalOficial
 #01 Conhecendo, instalando e configurando o Bootstrap;
 #02 Conhecendo a estrutura - Requisitos, Grids, Layout Fixo e Fluido; 
 #03 Estrutura e Configuração Básica, Layouts Fixo e Fluido na Prática;
