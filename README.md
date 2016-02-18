@@ -1,5 +1,5 @@
 # Bootstrap
-PontoCanal - Curso Twitter Bootstrap - Bootstrap2.x
+*PontoCanal - Curso Twitter Bootstrap - Bootstrap2.x
 01 - Conhecendo, instalando e configurando o Bootstrap;
 02 - Conhecendo a estrutura - Requisitos, Grids, Layout Fixo e Fluido; 
 03 - Estrutura e Configuração Básica, Layouts Fixo e Fluido na Prática;
@@ -26,7 +26,7 @@ PontoCanal - Curso Twitter Bootstrap - Bootstrap2.x
 24 - Resolvendo o Problema do Layout Fixo e Classes Responsivas. 
 
 
-PontoCanal - Bootstrap 3 - Migração da v2.x para v3.x
+*PontoCanal - Bootstrap 3 - Migração da v2.x para v3.x
 01 - Apresentação e Configuração;
 02 - Sistema de Grid;
 03 - Botões;
@@ -43,5 +43,5 @@ https://www.youtube.com/user/PontoCanalOficial
 
 
 
-Web Dev Academy - Tutorial: Criando Telas de CRUD com Bootstrap 3
+*Web Dev Academy - Tutorial: Criando Telas de CRUD com Bootstrap 3
 http://webdevacademy.com.br/
