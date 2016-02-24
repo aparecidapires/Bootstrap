@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>	
+	<title>Validando Formulário com Bootstrap Validator></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="container">
+
+  <form id="formExemplo" class="form-horizontal" data-toggle="validator" role="form">
+    <div class="form-group">
+      <label for="idNome" class="control-label">Nome</label>
+      <input id="idNome" class="form-control" type="text" placeholder="Digite seu Nome..." required>
+    </div>
+    
+    <div class="form-group">
+      <label for="idEmail" class="control-label">Email</label>
+      <input id="idEmail" type="email" class="form-control" type="email"  placeholder="Digite seu E-mail"
+        data-error="Por favor, informe um e-mail correto." required>
+      <div class="help-block with-errors"></div>
+    </div>
+    
+    <div class="form-group">
+      <label for="idPassword" class="control-label">Senha</label>
+      <input id="idPassword" class="form-control" type="password" placeholder="Digite sua Senha..."  
+        data-minlength="6" required>
+      <span class="help-block">Mínimo de seis (6) digitos</span>
+    </div>
+    
+    <div class="form-group">
+      <label for="idConfirm" class="control-label">Confirme a Senha</label>
+      <input id="idConfirm" class="form-control" type="password" placeholder="Confirme sua Senha..." 
+        data-match="#idPassword" data-match-error="Atenção! As senhas não estão iguais." required></input>
+      <div class="help-block with-errors"></div>
+    </div>
+
+    <div class="form-group">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" data-error="Você deve marcar este campo!" required> Remember me.
+        </label>
+        <div class="help-block with-errors"></div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="idIdade" class="control-label">Idade</label>
+      <input id="idIdade" class="form-control" type="number" placeholder="Digite sua idade..." min="0" max="109" data-error="Por favor, digite uma idade válida entre (0) e (110) anos" required>
+      <div class="help-block with-errors"></div>
+    </div>
+    
+    <div class="form-group">
+    <label for="radio" class="control-label">Escolha o sexo</label>
+      <div class="radio" id="radio">
+        <label>
+          <input type="radio" name="sexo" required>
+          Masculino
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="sexo" required>
+          Feminino
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validator.min.js"></script>
+
+</body>
+</html>
